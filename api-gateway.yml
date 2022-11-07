@@ -4,7 +4,7 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka
+      defaultZone: http://discovery-service:7001/eureka/
   instance:
     prefer-ip-address: true
     hostname: ${COMPUTERNAME:localhost}
